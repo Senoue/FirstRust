@@ -12,13 +12,17 @@ $ docker exec -it firstrust_rust_1 bash
 
 ```
 $ cargo new hello --bin
-$ cd hello/src
-$ rustc main.rs
+$ cd hello
+$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target/debug/hello`
 ```
 
 ## 3rd Step
 
 ```
+$ cd src/
+$ rustc main.rs
 $ ./main
 $ Hello, world!
 ```

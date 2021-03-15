@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+    rust:
+        build: .
+        volumes:
+          - "./app:/app/"
+        ports:
+          - "8083:8080"
+        tty: true
